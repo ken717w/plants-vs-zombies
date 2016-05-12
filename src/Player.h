@@ -9,7 +9,10 @@ public:
 	Player();
 	string getName() const;
 	void setName(string name);
-protected:
+	void verifyName();
+	void roleChoosing();
+private:
 	string name;
+	bool role;
 };
 #endif
